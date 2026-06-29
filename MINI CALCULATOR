@@ -1,0 +1,28 @@
+print(" MINI CALCULATOR")
+n1=float(input("enter the first number :"))
+n2=float(input("enter the second number :"))
+
+print("CHOOSE ARITHMATIC OPERATION")
+print("1.ADDITION")
+print("2.SUBTRACTION")
+print("3.MULTIPLICATION")
+print("4.DIVISION")
+
+choice= int(input("Enter Choice (1 /2 /3 / 4) : "))
+                 
+
+if choice == 1:
+  print("RESULT =",n1 + n2)
+elif choice == 2:
+  print("RESULT =",n1 - n2)
+elif choice == 3:
+  print("RESULT =",n1 * n2)
+elif choice == 4:
+  if n2!=0:
+    print("RESULT =",n1 / n2)
+  else :
+      print(" DIVISION BY ZERO IS NOT ALLOWED ")
+else:
+  print ("invalid choice")
+
+
