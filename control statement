@@ -1,0 +1,83 @@
+# This is a python program to demonstrate control statements in python 
+
+# control statement (if - else)
+mark =float(input("enter your mark:"))
+if mark >=45:
+    print(" you have passed ur exam")
+else:
+    print(" sorry !!! you have failed ur exam")
+
+# pgrm to find whether a person is eligible for voting or not
+
+age =int(input("enter ur age:"))
+if age >=18 :
+    print(" your eligible for voting")
+else:
+    print(" sorry !!! your not eligible for voting ")
+
+# program to find a num is odd or even
+num =int(input("enter a number:))
+if num % 2 == 0 :
+  print ("This is even num")
+else
+  print ("This is odd num")
+
+# python program to  find greatest and other possibilities
+
+a=int(input("enter a number:"))
+b=int(input("enter a number:"))
+c=int(input("enter a number:"))
+
+if a>b and a>c :
+    print (" A is greatest")
+elif b>a and b>c:
+    print (" B is greatest")
+elif c>a and c>b:
+    print (" C is greatest")
+elif  a==b and a>c:
+      print (" A and B are greatest")
+elif  a==c and a>b:
+      print (" A and C are greatest")
+elif  b==c and b>a:
+      print (" B and C are greatest")
+else :
+      print (" All three numbers  are equal")
+            
+# python program to find whether a character is vowel or not 
+
+  
+c=input("enter a character:")
+
+if c=='a' or c=='e' or c=='i' or c=='o' or c=='u'or c=='A'or c=='E'or c=='I' or c=='O' or c=='U':
+    print(" The given character is vowel")
+else :
+     print(" The given character is not a  vowel")
+
+
+
+# python program for grading system 
+''' grade system
+ 100 -90 (A grade)
+  89-80(B grade)
+  79-70(C grade)
+  69-60(D grade)
+  59-50(E grade)
+  49-0 (FAIL)'''
+
+mark = float( input(" Enter  ur mark:"))
+if mark >= 90 and mark <= 100 :
+    print ( " A grade")
+elif mark >= 80  and mark <= 89 :
+    print ( " B grade")
+elif mark >= 70  and mark <= 79 :
+    print ( " C grade")
+elif mark >= 60  and mark <= 69 :
+    print ( " D grade")
+elif mark >= 50  and mark <= 59 :
+    print ( " E grade")
+elif mark >= 0  and mark <= 49 :
+    print ( " FAIL ")
+else:
+    print(" Invalid mark")
+
+
