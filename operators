@@ -46,6 +46,12 @@ print("~p (NOT):", ~p)
 print("p << 1 (left shift):", p << 1)
 print("p >> 1 (right shift):", p >> 1)
 
+print("\nTERNARY OPERATORS ")
+z= a if a>b else b
+print(z,"is greatest number")
+
+
+
 print("\nIDENTITY & MEMBERSHIP OPERATORS")
 list1 = [1, 2, 3]
 list2 = [1, 2, 3]
