@@ -1,0 +1,39 @@
+#tuple in data structure
+
+t=(100,90,80,70,60,50,40,30,20,100,'h')
+print(t) # tuple in parantheses
+
+''' characteristics of tuples
+1.insertion order preserved
+2.allows duplicates
+3.heterogenous dataypes are allowed
+4.tuple are immutable
+5.indexing concepts are allowed
+6.slicing concepts are allowed
+'''
+
+print(t[1:5]) #slicing
+print(len(t)) # lenth
+print(t.count(100)) #count the number of times
+print(t.index(90)) # calculate its index position
+th=sorted(t) # sort converted the tuple into list by default no changes can be made 
+print(th) #list format 
+print(t) # tuple
+print(min(t)) # minimum value of the tuple
+print(max(t))# maximum value of the tuple
+
+
+t1=(100,90,80,70,60,50,40,30,20,100,)
+t2=60,807,65 # default without parentheses it considers as tuple
+
+print(t1)
+print(t2)
+
+print(type(t1))
+print(type(t2))
+
+print(t1 + t2)
+print(t1*3)
+print(10 in t1)
+print(80 in t1)
+
