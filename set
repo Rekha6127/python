@@ -1,0 +1,28 @@
+# data structure (set)
+
+s={ 40,10,20,30,10,10,'s',}
+print(s)
+
+
+''' characteristics of set
+1.insertion order not  preserved
+2. duplicates are not allowed
+ 3.heterogenous dataypes are allowed
+4. mutable in nature
+5.indexing concepts are not allowed
+6.slicing concepts are not allowed
+'''
+s.add(100) # it add the value somewhere in the set not at the end
+print(s)
+
+
+# list is converted into tuple
+l=[1000,90,80,70,60]
+h=set(l)
+print(h)
+l=list(h)
+print(l)
+
+t=(33,66,11,33,99,765,66)
+h=set(t)
+print(h)
